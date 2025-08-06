@@ -41,19 +41,29 @@
             #endregion
 
             #region q4 
-            Employee emp = new Employee();
-            emp.Work();
-            Manager man = new Manager();
-            man.Work();
+            //Employee emp = new Employee();
+            //emp.Work();
+            //Manager man = new Manager();
+            //man.Work();
             #endregion
 
             #region q5
-
+            //BaseClass baseClass = new BaseClass();
+            //DerivedClass1 derivedClass1 = new DerivedClass1();
+            //DerivedClass2 derivedClass2 = new DerivedClass2();
+            //the difrrence is the key word override replaces the base class while new hides it and generate new one
 
 
             #endregion
 
 
-        }
+
+            #region part2 
+            //Duration d1 = new Duration(12, 30, 33);
+            //Duration d2 = new Duration(9, 25, 2222);
+            #endregion
+
+
+        } 
     }
 }

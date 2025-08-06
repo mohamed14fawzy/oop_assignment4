@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace oop_assignment4
 {
-    internal class DerivedClass1 : BaseClass
+    internal class DerivedClass2 : BaseClass
     {
-        public override void display()
+        public new void display()
         {
-             base.display();
-            Console.WriteLine(" DerivedClass1");
-
+            base.display();
+            Console.WriteLine("DerivedClass2");
         }
+        
     }
 }

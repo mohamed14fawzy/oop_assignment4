@@ -30,10 +30,10 @@ namespace oop_assignment4
         }
 
 
-
+        //override on +
         public static Complex operator +(Complex left, Complex right)
         {
-            return new Complex;
+            return new Complex
             {
                 real = left.real + right.real,
                 imaginary = right.imaginary + left.imaginary,
@@ -42,7 +42,19 @@ namespace oop_assignment4
             ;
         }
 
-        override string ToString()
+        //ovverride on -
+        public static Complex operator -(Complex left, Complex right)
+        {
+            return new Complex
+            {
+                real = left.real - right.real,
+                imaginary = right.imaginary - left.imaginary,
+
+            }
+            ;
+        }
+
+        public override string ToString()
         {
             return$"{real} + {imaginary}i ";
         }
